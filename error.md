@@ -4,7 +4,7 @@
 fatal: unable to access 'https://github.com/huanhuan0728/DataStructure/': Failed to connect to github.com port 443 after 75010 ms: Couldn't connect to server
 
 ## 解决办法
-看csdn说是网络配置造成的一直无法和github连接，但是网页是能直接访问GitHub的
+看csdn说是网络配置造成的一直无法和github连接，终端、xcode和xcode都不能连接，但是网页是能直接访问GitHub的
 ```
 (base) xuhuanlu@xuhuandeMacBook-Pro tree % git config --global --get http.proxy
 (base) xuhuanlu@xuhuandeMacBook-Pro tree % git config --global --get https.proxy 
